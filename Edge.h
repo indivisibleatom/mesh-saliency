@@ -4,11 +4,11 @@
 #include "Types.h"
 
 class Edge {
-public:
-    // one of the two half edges associated with this edge
-    HalfEdgeIter he;
-    
-    double length() const;
+ public:
+  // one of the two half edges associated with this edge
+  HalfEdgeIter he;
+
+  double length() const;
 };
 
 #endif

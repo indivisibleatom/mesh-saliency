@@ -1,15 +1,15 @@
 #ifndef TYPES_H
 #define TYPES_H
 
-#include <stdlib.h>
-#include <string>
-#include <vector>
-#include <queue>
-#include <unordered_map>
-#include <iostream>
 #include "math.h"
 #include <Eigen/Core>
 #include <Eigen/Dense>
+#include <iostream>
+#include <queue>
+#include <stdlib.h>
+#include <string>
+#include <unordered_map>
+#include <vector>
 
 class Vertex;
 class Edge;
